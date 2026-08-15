@@ -1,0 +1,97 @@
+Place the Python script and CSV dataset in the same directory.
+
+Run:
+
+python athlete_performance_visualization.py
+Visualizations
+The program generates five visualizations:
+Training Load Trend
+Shows how training load changes across observations for each athlete.
+
+Readiness Trend
+Shows changes in athlete readiness over time.
+
+Average Training Load
+Compares average training load between athletes.
+
+Average Jump Height
+Compares average jump performance between athletes.
+
+Training Load vs Readiness
+
+Shows the relationship between training load and readiness observations.
+
+Output Files
+
+The program generates:
+
+training_load_trend.png
+readiness_trend.png
+average_training_load.png
+average_jump_height.png
+training_load_vs_readiness.png
+athlete_performance_summary.csv
+performance_correlation_matrix.csv
+
+Example Results
+
+The dataset produces the following team-level summary:
+Average Training Load : 440.5 AU
+Average Wellness      : 21.4/25
+Average Readiness     : 78.0%
+Average Jump Height   : 46.9 cm
+Average Sprint Time   : 4.81 s
+Average Strength      : 73.0
+
+The highest recorded training load is:
+
+Athlete: Arjun
+Training Load: 650 AU
+
+The highest readiness observation is:
+
+Athlete: Vikram
+Readiness: 91%
+
+The best recorded jump is:
+
+Athlete: Vikram
+Jump Height: 54 cm
+
+The fastest sprint observation is:
+
+Athlete: Vikram
+Sprint Time: 4.60 s
+Correlation Analysis
+
+The project calculates Pearson correlations between:
+
+Training load
+Wellness
+Readiness
+Jump height
+Sprint time
+Strength
+
+Correlation describes statistical association and does not establish causation.
+
+Sports Performance Applications
+The project demonstrates a basic workflow applicable to:
+
+Strength and conditioning
+Athlete monitoring
+Performance analysis
+Training-load monitoring
+Jump testing
+Sprint testing
+Strength testing
+Sports science reporting
+Athlete dashboards
+Limitations
+
+The dataset is synthetic and is intended for programming and portfolio development.
+
+The variables and relationships should not be interpreted as validated clinical, physiological, or performance-monitoring thresholds.
+
+Correlation does not establish causation.
+Real athlete-performance systems should use validated testing protocols, appropriate measurement reliability, athlete-specific baselines, longitudinal data, and qualified professional interpretation.
