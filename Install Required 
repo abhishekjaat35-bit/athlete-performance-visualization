@@ -1,0 +1,7 @@
+Install required libraries
+
+In your terminal:
+pip install pandas matplotlib
+
+If you're using Jupyter:
+!pip install pandas matplotlib
